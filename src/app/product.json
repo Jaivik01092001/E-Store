@@ -1,0 +1,74 @@
+[
+  {
+    "name": "Amazon Echo Dot (3rd Gen)",
+    "description": "Smart speaker with Alexa - Charcoal",
+    "price": 49.99,
+    "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9YDy9MUvb7EKkzrc68oBeI17UBJSHLNh_BqKSRVRH&s"
+  },
+  {
+    "name": "Kindle Paperwhite",
+    "description": "Waterproof eReader with High-Resolution Display",
+    "price": 129.99,
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/61eAq6gg-XL._AC_SY450_.jpg"
+  },
+  {
+    "name": "Sony WH-1000XM4 Headphones",
+    "description": "Wireless Noise Canceling Overhead Headphones",
+    "price": 349.99,
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71o8Q5XJS5L._AC_SY450_.jpg"
+  },
+  {
+    "name": "Apple iPad Pro (11-inch)",
+    "description": "Wi-Fi, 128GB - Space Gray",
+    "price": 799.0,
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/815a%2BXjrgvL._AC_SY450_.jpg"
+  },
+  {
+    "name": "Samsung 55-Inch 4K Smart TV",
+    "description": "Crystal UHD TU-8000 Series - Black",
+    "price": 599.99,
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71RiQZ0J2SL._AC_SY450_.jpg"
+  },
+  {
+    "name": "Fitbit Charge 4 Fitness Tracker",
+    "description": "Built-in GPS, Heart Rate, Sleep & Swim Tracking",
+    "price": 129.95,
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71smqRr0pmL._AC_SY450_.jpg"
+  },
+  {
+    "name": "Instant Pot Duo 7-in-1 Cooker",
+    "description": "6 Quart, Electric Pressure Cooker, Slow Cooker",
+    "price": 79.0,
+    "imageUrl": "https://instantpotme.com/wp-content/uploads/2020/05/instant-pot-duo-6.jpg"
+  },
+  {
+    "name": "Bose QuietComfort 35 II Headphones",
+    "description": "Wireless Bluetooth, Noise-Canceling, with Alexa Voice Control",
+    "price": 299.0,
+    "imageUrl": "https://assets.bose.com/content/dam/Bose_DAM/Web/consumer_electronics/global/products/headphones/qc35_ii/product_silo_images/qc35_ii_black_EC_hero.psd/_jcr_content/renditions/cq5dam.web.320.320.png"
+  },
+  {
+    "name": "Canon EOS Rebel T7 DSLR Camera",
+    "description": "18-55mm f/3.5-5.6 IS II Lens, Built-in Wi-Fi",
+    "price": 499.0,
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/81O%2BGNdkzKL._AC_SY450_.jpg"
+  },
+  {
+    "name": "LG 27-Inch 4K Monitor",
+    "description": "UHD IPS Monitor with HDR10",
+    "price": 349.99,
+    "imageUrl": "https://cdn.moglix.com/p/f893bg96TvPpg-xxlarge.jpg"
+  },
+  {
+    "name": "KitchenAid Stand Mixer",
+    "description": "Artisan Series, 5-Quart, Empire Red",
+    "price": 379.0,
+    "imageUrl": "https://5.imimg.com/data5/SELLER/Default/2020/8/TQ/NB/VX/9360645/kitchen-aid-stand-mixer.jpg"
+  },
+  {
+    "name": "NVIDIA GeForce RTX 3080 Graphics Card",
+    "description": "10GB GDDR6X, PCI Express 4.0, 4K Gaming Graphics Card",
+    "price": 699.0,
+    "imageUrl": "https://5.imimg.com/data5/SELLER/Default/2022/5/NY/AV/NV/35031119/asus-rog-strix-geforce-rtx-3080-oc-edition-12gb-gddr6x-ram-with-lhr.jpg"
+  }
+]

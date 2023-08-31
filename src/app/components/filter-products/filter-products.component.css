@@ -1,0 +1,58 @@
+.filter-page {
+  width: max-content;
+  margin: 8% 0%;
+}
+.filter-container {
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: var(--card-bg-color);
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.filter-container h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.filter-group {
+  margin-bottom: 10px;
+}
+.checkbox-width {
+  width: fit-content !important;
+}
+
+.filter-group label {
+  display: block;
+  font-weight: bold;
+  margin-left: 0.2rem;
+}
+
+.filter-group select,
+.filter-group input[type="text"],
+.filter-group input[type="checkbox"] {
+  width: 100%;
+  padding: 0.5em 1rem;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.apply-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.apply-button:hover {
+  background-color: #0056b3;
+}
+@media only screen and (max-width: 600px) {
+  .filter-page {
+    width: 90%;
+    margin: auto;
+    margin-top: 1rem;
+  }
+}

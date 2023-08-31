@@ -1,0 +1,19 @@
+/* hero.component.css */
+.hero-section {
+  background-color: #f7f7f7;
+  padding: 100px 0;
+}
+
+.hero-content {
+  margin-bottom: 30px;
+}
+/* Add responsive styles using Bootstrap classes */
+@media (max-width: 768px) {
+  .hero-content {
+    text-align: center;
+  }
+
+  .hero-content h1 {
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,33 @@
+<body>
+  <div class="login-container">
+    <h2>Login</h2>
+    <form [formGroup]="loginForm" (ngSubmit)="loginUser()">
+      <label for="mobileno">Mobile No:</label>
+      <input
+        type="text"
+        id="mobileno"
+        name="mobileno"
+        formControlName="mobileno"
+      />
+      <small *ngIf="mobileno && mobileno.invalid && mobileno.touched"
+        >Enter Valid Mobile Number</small
+      >
+
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        formControlName="password"
+      />
+      <small *ngIf="password && password.invalid && password.touched"
+        >Enter Valid Password</small
+      >
+      <button type="submit" class="login-btn">Login</button>
+    </form>
+
+    <div class="signup-link">
+      Don't have an account? <a routerLink="/signup">Create Account</a>
+    </div>
+  </div>
+</body>

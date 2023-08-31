@@ -1,0 +1,39 @@
+<div class="filter-page">
+  <div class="filter-container">
+    <h2>Product Filters</h2>
+
+    <div class="filter-group">
+      <label for="searchInput">Search by Name:</label>
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search Anything..."
+        autocomplete="off"
+      />
+    </div>
+
+    <div class="filter-group">
+      <label for="categorySelect">Category:</label>
+      <select id="categorySelect">
+        <option value="">All Categories</option>
+        <option></option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label for="priceSortSelect">Price:</label>
+      <select id="priceSortSelect">
+        <option value="none">None</option>
+        <option value="lowToHigh">Low to High</option>
+        <option value="highToLow">High to Low</option>
+      </select>
+    </div>
+
+    <div class="filter-group d-flex">
+      <input type="checkbox" class="checkbox-width" id="newProductsCheckbox" />
+      <label for="newProductsCheckbox">Show Newly Added Products</label>
+    </div>
+
+    <button class="apply-button">Apply Filters</button>
+  </div>
+</div>

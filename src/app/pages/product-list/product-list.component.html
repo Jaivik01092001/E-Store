@@ -1,0 +1,27 @@
+<div class="container d-flex mobile">
+  <app-filter-products></app-filter-products>
+  <div class="row">
+    <div class="col-md-4" *ngFor="let product of products">
+      <div class="product-card">
+        <img
+          [src]="product.imageUrl"
+          class="product-image mix-blend-multiply"
+          alt="Product Image"
+        />
+        <div class="product-name">{{ product.name }}</div>
+        <div class="product-description">{{ product.description }}</div>
+        <div class="product-price fw-medium">
+          {{ product.price.toFixed(2) | currency : "INR" }}
+        </div>
+        <div class="product-buttons d-flex justify-content-center gap-2">
+          <a routerLink="/cart"
+            ><button class="btn btn-primary btn-sm">Add to Cart</button></a
+          >
+          <a routerLink="/checkout"
+            ><button class="btn btn-success btn-sm">Buy Now</button></a
+          >
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

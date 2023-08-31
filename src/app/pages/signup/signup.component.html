@@ -1,0 +1,108 @@
+<body>
+  <div class="signup-container">
+    <h2>Signup</h2>
+    <form #signup="ngForm" (ngSubmit)="getdata(loginform)">
+      <label for="firstname">First Name:</label>
+      <input
+        type="text"
+        id="firstname"
+        name="firstname"
+        ngModel
+        #firstname="ngModel"
+        required
+        pattern="^[a-zA-Z0-9_]{2,20}$"
+      />
+      <small *ngIf="!firstname.valid && firstname.touched"
+        >Enter Valid Name</small
+      >
+
+      <label for="lastname">Last Name:</label>
+      <input
+        type="text"
+        id="lastname"
+        name="lastname"
+        ngModel
+        #lastname="ngModel"
+        required
+        pattern="^[a-zA-Z0-9_]{2,20}$"
+      />
+      <small *ngIf="!lastname.valid && lastname.touched"
+        >Enter Valid Name</small
+      >
+
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+        ngModel
+        #email="ngModel"
+        required
+        pattern="^([a-zA-Z0-9._%-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})$"
+      />
+      <small *ngIf="!email.valid && email.touched">Enter Valid E-mail</small>
+
+      <label for="password">Password:</label>
+      <input
+        type="password"
+        id="password"
+        name="password"
+        ngModel
+        #password="ngModel"
+        required
+        pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[!@#$%^&*])[A-Za-z\d!@#$%^&*]{8,30}$"
+      />
+      <small *ngIf="!password.valid && password.touched"
+        >Enter Valid Password</small
+      >
+
+      <label for="mobileno">Mobile Number:</label>
+      <input
+        type="number"
+        id="mobileno"
+        name="mobileno"
+        ngModel
+        #mobileno="ngModel"
+        required
+        pattern="^[6-9]\d{9}$"
+      />
+      <small *ngIf="!mobileno.valid && mobileno.touched"
+        >Enter Valid Mobile No</small
+      >
+
+      <label for="address">Address:</label>
+      <textarea
+        id="address"
+        name="address"
+        rows="4"
+        ngModel
+        #address="ngModel"
+        required
+      ></textarea>
+      <small *ngIf="!address.valid && address.touched"
+        >Enter Valid Address</small
+      >
+
+      <div class="signup-cbox d-flex mb-16">
+        <input
+          type="checkbox"
+          class="checkbox"
+          id="terms"
+          name="terms"
+          ngModel
+          #terms="ngModel"
+          required
+        />
+        <b class="lable-content" for="terms"
+          >I agree to all statements in the <a href="#">Terms of Service</a></b
+        >
+      </div>
+
+      <button type="submit" class="signup-btn">Sign Up</button>
+    </form>
+
+    <div class="login-link">
+      Already a member? <a routerLink="/login">Login here</a>
+    </div>
+  </div>
+</body>

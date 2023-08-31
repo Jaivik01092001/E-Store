@@ -1,1 +1,22 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #6351ce;
+  --card-bg-color: #6351ce1a;
+}
+.login {
+  gap: 0.6rem;
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+small {
+  color: red;
+  font-family: sans-serif;
+  font-weight: 500;
+}
