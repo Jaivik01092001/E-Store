@@ -12,10 +12,8 @@ import { HomeComponent } from './pages/home/home.component';
 import { ProductListComponent } from './pages/product-list/product-list.component';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
 import { CartComponent } from './components/cart/cart.component';
-import { FormsModule,ReactiveFormsModule}   from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { FilterProductsComponent } from './components/filter-products/filter-products.component';
-
-
 
 @NgModule({
   declarations: [
@@ -29,14 +27,10 @@ import { FilterProductsComponent } from './components/filter-products/filter-pro
     ProductListComponent,
     CheckoutComponent,
     CartComponent,
-    FilterProductsComponent
+    FilterProductsComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    FormsModule,ReactiveFormsModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, FormsModule, ReactiveFormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
